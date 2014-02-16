@@ -1,0 +1,82 @@
+\documentclass[a4paper, 11pt,final,hyphenatedtitles]{article}
+\usepackage[vmargin=2cm, hmargin=1.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[altbullet]{lucidabr}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{fancyhdr}
+\usepackage[final]{graphicx}
+\usepackage{multicol}
+\def\xmoslogo{xmoslogo18pt}
+\newcommand{\iic}{I$^2$C~}
+
+\makeatletter
+\def\headrule{{%
+  \if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+  \vskip2pt%
+  \hrule\@height\footrulewidth\@width\headwidth\vskip2pt%
+  \hrule\@height\headrulewidth\@width\headwidth\vskip-\headrulewidth\vskip-4pt
+}}
+%
+\def\footrule{{%
+  \if@fancyplain\let\footrulewidth\plainfootrulewidth\fi
+  \vskip-\footruleskip\vskip-\footrulewidth
+  \hrule\@height\headrulewidth\@width\headwidth\vskip2pt%
+  \hrule\@height\footrulewidth\@width\headwidth\vskip\footruleskip
+}}
+\makeatother
+\setlength{\headsep}{0.7cm}
+\pagestyle{fancy}
+%
+\renewcommand{\headrulewidth}{3.5pt}
+\renewcommand{\footrulewidth}{1.5pt}
+%
+\addtolength{\headheight}{2\baselineskip}
+\rfoot{www.xmos.com}
+\lhead{\includegraphics[scale=1.5]{\xmoslogo}}
+\lfoot{Copyright 2013 XMOS Ltd. 2013}
+\rhead{\iic xSOFTip Component (v2.0.1)}
+\begin{document}
+\noindent\begin{minipage}{\textwidth}
+
+%A
+\noindent\begin{minipage}[b]{.6\textwidth}
+{{\Huge\sffamily\bfseries\flushleft \iic xSOFTip Component}}
+\vspace{\baselineskip}
+
+\noindent
+A software defined \iic bus component that allows you to control a
+\iic bus via the xCORE GPIO hardware-response ports. The component
+is controlled via C using the XMOS multicore extensions and can
+either act as \iic master or slave.
+\end{minipage} 
+\hfill
+\begin{minipage}[b]{.3\textwidth}
+\includegraphics[width=2in]{elephant}
+Some more text.
+\end{minipage}
+
+\end{minipage}
+\vspace{0.5\baselineskip}
+
+\noindent\rule{\textwidth}{1.5pt}
+
+{{\Large\sffamily\bfseries\flushleft Features}}
+
+\begin{itemize}
+\item \iic master and \iic slave modes.
+\item Supports speed of 100 Kb/s or 400 Kb/s.
+\item Multiple master support.
+\item Clock stretching support.
+\end{itemize}
+
+{{\Large\sffamily\bfseries\flushleft Configurations}}
+
+\begin{itemize}
+\item \iic master
+\item \iic master using a single port block (reading not supported)
+\item \iic slave
+\end{itemize}
+
+
+
+\end{document}

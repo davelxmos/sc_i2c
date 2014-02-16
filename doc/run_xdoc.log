@@ -1,0 +1,807 @@
+Building documentation target 'xmospdf' in doc2
+    Copying ..//module_i2c
+    Run 'git stash' in /home/davel/.xdoc/docs_xref
+         No local changes to save
+    Run 'git config --get remote.origin.url' in .
+         git@github.com:xcore/sc_i2c
+    Run 'git rev-parse --show-prefix' in /home/davel/github2/sc_i2c/doc2
+         doc2/
+    Found document info for 'I2C Component'
+    Run 'git add *.xml' in /home/davel/.xdoc/docs_xref
+    Run 'git update-index -q --refresh' in /home/davel/.xdoc/docs_xref
+    Run 'git diff-index --name-only HEAD --' in /home/davel/.xdoc/docs_xref
+    Processing document structure for xref database
+    Processing TOC for XMOS xref database
+    Run 'git stash' in /home/davel/.xdoc/docs_xref
+         No local changes to save
+    Run 'git config --get remote.origin.url' in .
+         git@github.com:xcore/sc_i2c
+    Run 'git rev-parse --show-prefix' in /home/davel/github2/sc_i2c/doc2
+         doc2/
+    Run 'git add *.xml' in /home/davel/.xdoc/docs_xref
+    Run 'git update-index -q --refresh' in /home/davel/.xdoc/docs_xref
+    Run 'git diff-index --name-only HEAD --' in /home/davel/.xdoc/docs_xref
+    Running Doxygen
+    Run 'doxygen' in /home/davel/github2/sc_i2c/doc2
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:50: warning: The following parameters of __extends__i2c_master_if::read_reg_n_m(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg[m], size_t m, uint8_t data[n], size_t n) are not documented:
+         err:  parameter 'i'
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:75: warning: The following parameters of __extends__i2c_master_if::read_reg(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg) are not documented:
+         err:  parameter 'i'
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:95: warning: The following parameters of __extends__i2c_master_if::write_reg_n_m(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg[m], size_t m, uint8_t data[n], size_t n) are not documented:
+         err:  parameter 'i'
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:121: warning: The following parameters of __extends__i2c_master_if::write_reg(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg, uint8_t data) are not documented:
+         err:  parameter 'i'
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:148: warning: argument 'enable_multimaster' of command @param is not found in the argument list of i2c_master(server interface i2c_master_if c[n], size_t n, port p_scl, port p_sda, unsigned kbits_per_second, enum i2c_enable_mm enable_multi_master)
+         err:/home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:148: warning: The following parameters of i2c_master(server interface i2c_master_if c[n], size_t n, port p_scl, port p_sda, unsigned kbits_per_second, enum i2c_enable_mm enable_multi_master) are not documented:
+         err:  parameter 'enable_multi_master'
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:50: warning: The following parameters of __extends__i2c_master_if::read_reg_n_m(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg[m], size_t m, uint8_t data[n], size_t n) are not documented:
+
+      parameter 'i'
+
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:75: warning: The following parameters of __extends__i2c_master_if::read_reg(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg) are not documented:
+
+      parameter 'i'
+
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:95: warning: The following parameters of __extends__i2c_master_if::write_reg_n_m(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg[m], size_t m, uint8_t data[n], size_t n) are not documented:
+
+      parameter 'i'
+
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:121: warning: The following parameters of __extends__i2c_master_if::write_reg(client interface i2c_master_if i, uint8_t device_addr, uint8_t reg, uint8_t data) are not documented:
+
+      parameter 'i'
+
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:148: warning: argument 'enable_multimaster' of command @param is not found in the argument list of i2c_master(server interface i2c_master_if c[n], size_t n, port p_scl, port p_sda, unsigned kbits_per_second, enum i2c_enable_mm enable_multi_master)
+
+    /home/davel/github2/sc_i2c/doc2/_build/.doxygen/module_i2c/api/i2c_master.h:148: warning: The following parameters of i2c_master(server interface i2c_master_if c[n], size_t n, port p_scl, port p_sda, unsigned kbits_per_second, enum i2c_enable_mm enable_multi_master) are not documented:
+
+      parameter 'enable_multi_master'
+
+    Running Sphinx
+    Run 'git rev-parse --show-toplevel' in .
+         /home/davel/github2/sc_i2c
+    Run 'git rev-parse --show-prefix' in .
+         doc2/
+    Run 'git stash' in /home/davel/.xdoc/docs_xref
+         No local changes to save
+    Run 'git config --get remote.origin.url' in .
+         git@github.com:xcore/sc_i2c
+    Run 'git rev-parse --show-prefix' in /home/davel/github2/sc_i2c/doc2
+         doc2/
+    Running Latex 1
+    Run 'pdflatex -shell-escape -interaction=nonstopmode xmos_texfile.tex' in ./_build/xlatex
+         This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012)
+          \write18 enabled.
+         entering extended mode
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.tex
+         LaTeX2e <2011/06/27>
+         Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+         aded.
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/i2c.tex
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xmosdatasheet.cl
+         s
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/article.cl
+         s
+         Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/size10.clo
+         ))
+         Document Class: xmosdatasheet 2014/01/29 XMOS datasheet style
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/hyperr
+         ef.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/hobs
+         ub-hyperref.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/hobs
+         ub-generic.sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/keyval
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/ifxetex/ifxet
+         ex.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/auxhoo
+         k.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/kvopti
+         ons.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/pd1enc
+         .def)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/hyp
+         erref.cfg)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/url/url.sty))
+         
+         Package hyperref Message: Driver (autodetected): hpdftex.
+         
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/hpdfte
+         x.def
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/rerunf
+         ilecheck.sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/memoir/memhfixc
+         .sty
+         No memoir class: memhfixc does nothing
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/geometry/geomet
+         ry.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/fontenc.st
+         y
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/t1enc.def)
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/lucid
+         abr.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hlh.f
+         d))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/fancyhdr/fancyh
+         dr.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/graphi
+         cx.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/graphi
+         cs.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/trig.s
+         ty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/gra
+         phics.cfg)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/pdftex-def/pdft
+         ex.def)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/multicol.
+         sty)
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/titlesec.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/textcomp.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1enc.def
+         ))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/listin
+         gs.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/lstmis
+         c.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/listin
+         gs.cfg))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/was/gensymb.sty
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/manfnt/manfnt.s
+         ty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/pifont.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/upzd.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/upsy.fd)
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/xspace.st
+         y)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/multirow/multir
+         ow.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/colortbl/colort
+         bl.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/array.sty
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/color.
+         sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/col
+         or.cfg)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/varioref.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/fixltx2e.s
+         ty) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/booktabs.sty
+         ) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/enumitem.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/tabularx.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/longtable
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/upquote/upquote
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/placeins/placei
+         ns.sty)
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xcolor.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/col
+         or.cfg)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/inputenc.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/utf8.def
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/t1enc.dfu)
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ot1enc.dfu
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/omsenc.dfu
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1enc.dfu
+         ))) (/home/davel/xsoftiptools/tools_xdoc/xdoc/texinput/xsphinx.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsmath
+         .sty
+         For additional information on amsmath, use the `?' option.
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amstext
+         .sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsgen.
+         sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsbsy.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsopn.
+         sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/makeidx.st
+         y)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/framed/framed.s
+         ty) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/fancyvrb.sty
+         
+         Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
+         <2008/02/07> (tvz))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/threeparttable/
+         threeparttable.sty))
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/texinput/indent.sty)
+         Writing index file xmos_texfile.idx
+         No file xmos_texfile.aux.
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/lmrhl
+         cm.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1cmr.fd)
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hls.f
+         d)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/namere
+         f.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/gett
+         itlestring.sty))
+         *geometry* driver: auto-detecting
+         *geometry* detected driver: pdftex
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/context/base/supp-pdf
+         .mkii
+         [Loading MPS to PDF converter (version 2006.09.02).]
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/epstop
+         df-base.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/grfext
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/eps
+         topdf-sys.cfg))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omlhl
+         cm.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omshl
+         cy.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omxhl
+         cv.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/ts1hls.
+         fd)
+         Overfull \hbox (0.7854pt too wide) in paragraph at lines 174--174
+         []|\T1/hls/b/n/10 Configuration|
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 188--188
+         \T1/hls/m/n/10 master dis-
+         <xmoslogo18pt.pdf, id=4, 54.06036pt x 15.07974pt> <use xmoslogo18pt.pdf>
+         [1{/tools/tools_latex_dist/dist/x86_64-linux/texmf-var/fonts/map/pdftex/updmap/
+         pdftex.map} </home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xmos
+         logo18pt.pdf>]
+         
+         LaTeX Warning: Reference `i2c:i2c-wire-table' on page 2 undefined on input line
+          221.
+         
+         <i2c-master-schem-crop.pdf, id=33, 441.65pt x 120.45pt>
+         <use i2c-master-schem-crop.pdf>
+         
+         LaTeX Warning: Reference `i2c:i2c-master-mode-hw-diag' on page 2 undefined on i
+         nput line 259.
+         
+         
+         LaTeX Warning: Reference `i2c:i2c-master-mode-hw-sp-diag' on page 2 undefined o
+         n input line 261.
+         
+         <i2c-master-schem-sp-crop.pdf, id=34, 441.65pt x 120.45pt>
+         <use i2c-master-schem-sp-crop.pdf>
+         
+         LaTeX Warning: Reference `i2c:i2c-slave-mode-hw-diag' on page 2 undefined on in
+         put line 280.
+         
+         <use i2c-master-schem-crop.pdf> <use xmoslogo18pt.pdf> [2 </home/davel/github2/
+         sc_i2c/doc2/_build/xlatex/i2c-master-schem-crop.pdf> </home/davel/github2/sc_i2
+         c/doc2/_build/xlatex/i2c-master-schem-sp-crop.pdf
+         
+         pdfTeX warning: pdflatex (file /home/davel/github2/sc_i2c/doc2/_build/xlatex/i2
+         c-master-schem-sp-crop.pdf): PDF inclusion: multiple pdfs with page group inclu
+         ded in a single page
+         >] <use xmoslogo18pt.pdf> [3]
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hlst.
+         fd) <hw_setup.png, id=71, 301.125pt x 225.84375pt> <use hw_setup.png>
+         <use xmoslogo18pt.pdf> [4 </home/davel/github2/sc_i2c/doc2/_build/xlatex/hw_set
+         up.png>] <use xmoslogo18pt.pdf> [5]
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 404.
+         
+         <task_diag-crop.pdf, id=98, 205.76875pt x 48.18pt> <use task_diag-crop.pdf>
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 444.
+         
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_master_if' on page 6 undefined on input
+          line 491.
+         
+         
+         Underfull \hbox (badness 2134) in paragraph at lines 510--511
+         []\T1/hls/m/n/10 A flag in-di-cat-ing whether multi-master sup-port should be e
+         n-abled.
+         
+         Underfull \hbox (badness 5711) in paragraph at lines 510--511
+         \T1/hls/m/n/10 This should be one of the val-ues []\T1/hlst/m/n/10 I2C_ENABLE_M
+         ULTIMASTER \T1/hls/m/n/10 or
+         <use xmoslogo18pt.pdf> [6 </home/davel/github2/sc_i2c/doc2/_build/xlatex/task_d
+         iag-crop.pdf>]
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_master_if' on page 7 undefined on input
+          line 562.
+         
+         <use xmoslogo18pt.pdf> [7] <use xmoslogo18pt.pdf> [8]
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_write_res_t' on page 9 undefined on inp
+         ut line 680.
+         
+         <use xmoslogo18pt.pdf> [9] <use xmoslogo18pt.pdf> [10] <use xmoslogo18pt.pdf>
+         [11]
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1059.
+         
+         <use task_diag-crop.pdf>
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1099.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1126.
+         
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_slave_if' on page 12 undefined on input
+          line 1169.
+         
+         <use xmoslogo18pt.pdf> [12]
+         Underfull \vbox (badness 10000) has occurred while \output is active
+         <use xmoslogo18pt.pdf> [13] <use xmoslogo18pt.pdf> <use xmoslogo18pt.pdf>
+         [14] (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.aux)
+         
+         Package rerunfilecheck Warning: File `xmos_texfile.out' has changed.
+         (rerunfilecheck)                Rerun to get outlines right
+         (rerunfilecheck)                or use package `bookmark'.
+         
+         
+         LaTeX Warning: There were undefined references.
+         
+         
+         LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+         
+          ) )
+         (see the transcript file for additional information){/tools/tools_latex_dist/di
+         st/x86_64-linux/texmf-dist/fonts/enc/dvips/base/8r.enc}</tools/tools_latex_dist
+         /dist/x86_64-linux/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></tools
+         /tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/lucida/lbr.pfb><
+         /tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/lucida/lsd
+         .pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/luci
+         da/lsi.pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/b
+         h/lucida/lsr.pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/t
+         ype1/bh/lucida/lstr.pfb>
+         Output written on xmos_texfile.pdf (14 pages, 386566 bytes).
+         Transcript written on xmos_texfile.log.
+    Running Latex 2
+    Run 'pdflatex -shell-escape -interaction=nonstopmode xmos_texfile.tex' in ./_build/xlatex
+         This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012)
+          \write18 enabled.
+         entering extended mode
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.tex
+         LaTeX2e <2011/06/27>
+         Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+         aded.
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/i2c.tex
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xmosdatasheet.cl
+         s
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/article.cl
+         s
+         Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/size10.clo
+         ))
+         Document Class: xmosdatasheet 2014/01/29 XMOS datasheet style
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/hyperr
+         ef.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/hobs
+         ub-hyperref.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/hobs
+         ub-generic.sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/keyval
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/ifxetex/ifxet
+         ex.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/auxhoo
+         k.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/kvopti
+         ons.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/pd1enc
+         .def)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/hyp
+         erref.cfg)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/url/url.sty))
+         
+         Package hyperref Message: Driver (autodetected): hpdftex.
+         
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/hpdfte
+         x.def
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/rerunf
+         ilecheck.sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/memoir/memhfixc
+         .sty
+         No memoir class: memhfixc does nothing
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/geometry/geomet
+         ry.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/fontenc.st
+         y
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/t1enc.def)
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/lucid
+         abr.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hlh.f
+         d))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/fancyhdr/fancyh
+         dr.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/graphi
+         cx.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/graphi
+         cs.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/trig.s
+         ty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/gra
+         phics.cfg)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/pdftex-def/pdft
+         ex.def)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/multicol.
+         sty)
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/titlesec.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/textcomp.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1enc.def
+         ))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/listin
+         gs.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/lstmis
+         c.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/listings/listin
+         gs.cfg))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/was/gensymb.sty
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/manfnt/manfnt.s
+         ty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/pifont.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/upzd.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/psnfss/upsy.fd)
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/xspace.st
+         y)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/multirow/multir
+         ow.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/colortbl/colort
+         bl.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/array.sty
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/graphics/color.
+         sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/col
+         or.cfg)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/varioref.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/fixltx2e.s
+         ty) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/booktabs.sty
+         ) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/enumitem.sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/tabularx.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/tools/longtable
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/upquote/upquote
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/placeins/placei
+         ns.sty)
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xcolor.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/col
+         or.cfg)))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/inputenc.s
+         ty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/utf8.def
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/t1enc.dfu)
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ot1enc.dfu
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/omsenc.dfu
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1enc.dfu
+         ))) (/home/davel/xsoftiptools/tools_xdoc/xdoc/texinput/xsphinx.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsmath
+         .sty
+         For additional information on amsmath, use the `?' option.
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amstext
+         .sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsgen.
+         sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsbsy.
+         sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/amsmath/amsopn.
+         sty))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/makeidx.st
+         y)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/framed/framed.s
+         ty) (/home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/fancyvrb.sty
+         
+         Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
+         <2008/02/07> (tvz))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/threeparttable/
+         threeparttable.sty))
+         (/home/davel/xsoftiptools/tools_xdoc/xdoc/texinput/indent.sty)
+         Writing index file xmos_texfile.idx
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.aux
+         
+         LaTeX Warning: Label `' multiply defined.
+         
+         
+         LaTeX Warning: Label `i2c:' multiply defined.
+         
+         
+         LaTeX Warning: Label `' multiply defined.
+         
+         
+         LaTeX Warning: Label `i2c:' multiply defined.
+         
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/lmrhl
+         cm.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/base/ts1cmr.fd)
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hls.f
+         d)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/hyperref/namere
+         f.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/generic/oberdiek/gett
+         itlestring.sty))
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.out)
+         (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.out)
+         *geometry* driver: auto-detecting
+         *geometry* detected driver: pdftex
+         
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/context/base/supp-pdf
+         .mkii
+         [Loading MPS to PDF converter (version 2006.09.02).]
+         )
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/epstop
+         df-base.sty
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/oberdiek/grfext
+         .sty)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-dist/tex/latex/latexconfig/eps
+         topdf-sys.cfg))
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omlhl
+         cm.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omshl
+         cy.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucidabr/omxhl
+         cv.fd)
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/ts1hls.
+         fd)
+         Overfull \hbox (0.7854pt too wide) in paragraph at lines 174--174
+         []|\T1/hls/b/n/10 Configuration|
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 188--188
+         \T1/hls/m/n/10 master dis-
+         <xmoslogo18pt.pdf, id=64, 54.06036pt x 15.07974pt> <use xmoslogo18pt.pdf>
+         [1{/tools/tools_latex_dist/dist/x86_64-linux/texmf-var/fonts/map/pdftex/updmap/
+         pdftex.map} </home/davel/xsoftiptools/tools_xdoc/xdoc/../../infr_docs/base/xmos
+         logo18pt.pdf>]
+         
+         LaTeX Warning: Reference `i2c:i2c-wire-table' on page 2 undefined on input line
+          221.
+         
+         <i2c-master-schem-crop.pdf, id=93, 441.65pt x 120.45pt>
+         <use i2c-master-schem-crop.pdf>
+         
+         LaTeX Warning: Reference `i2c:i2c-master-mode-hw-diag' on page 2 undefined on i
+         nput line 259.
+         
+         
+         LaTeX Warning: Reference `i2c:i2c-master-mode-hw-sp-diag' on page 2 undefined o
+         n input line 261.
+         
+         <i2c-master-schem-sp-crop.pdf, id=94, 441.65pt x 120.45pt>
+         <use i2c-master-schem-sp-crop.pdf>
+         
+         LaTeX Warning: Reference `i2c:i2c-slave-mode-hw-diag' on page 2 undefined on in
+         put line 280.
+         
+         <use i2c-master-schem-crop.pdf> <use xmoslogo18pt.pdf> [2 </home/davel/github2/
+         sc_i2c/doc2/_build/xlatex/i2c-master-schem-crop.pdf> </home/davel/github2/sc_i2
+         c/doc2/_build/xlatex/i2c-master-schem-sp-crop.pdf
+         
+         pdfTeX warning: pdflatex (file /home/davel/github2/sc_i2c/doc2/_build/xlatex/i2
+         c-master-schem-sp-crop.pdf): PDF inclusion: multiple pdfs with page group inclu
+         ded in a single page
+         >] <use xmoslogo18pt.pdf> [3]
+         (/tools/tools_latex_dist/dist/x86_64-linux/texmf-local/tex/latex/lucida/t1hlst.
+         fd) <hw_setup.png, id=127, 301.125pt x 225.84375pt> <use hw_setup.png>
+         <use xmoslogo18pt.pdf> [4 </home/davel/github2/sc_i2c/doc2/_build/xlatex/hw_set
+         up.png>] <use xmoslogo18pt.pdf> [5]
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 402.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 404.
+         
+         <task_diag-crop.pdf, id=149, 205.76875pt x 48.18pt> <use task_diag-crop.pdf>
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 432.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 444.
+         
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_master_if' on page 6 undefined on input
+          line 491.
+         
+         
+         Underfull \hbox (badness 2134) in paragraph at lines 510--511
+         []\T1/hls/m/n/10 A flag in-di-cat-ing whether multi-master sup-port should be e
+         n-abled.
+         
+         Underfull \hbox (badness 5711) in paragraph at lines 510--511
+         \T1/hls/m/n/10 This should be one of the val-ues []\T1/hlst/m/n/10 I2C_ENABLE_M
+         ULTIMASTER \T1/hls/m/n/10 or
+         <use xmoslogo18pt.pdf> [6 </home/davel/github2/sc_i2c/doc2/_build/xlatex/task_d
+         iag-crop.pdf>]
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_master_if' on page 7 undefined on input
+          line 562.
+         
+         <use xmoslogo18pt.pdf> [7] <use xmoslogo18pt.pdf> [8]
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_write_res_t' on page 9 undefined on inp
+         ut line 680.
+         
+         <use xmoslogo18pt.pdf> [9] <use xmoslogo18pt.pdf> [10] <use xmoslogo18pt.pdf>
+         [11]
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1057.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1059.
+         
+         <use task_diag-crop.pdf>
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1087.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1099.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1110.
+         
+         
+         Package xcolor Warning: Incompatible color definition on input line 1126.
+         
+         
+         LaTeX Warning: Hyper reference `i2c:i2c_slave_if' on page 12 undefined on input
+          line 1169.
+         
+         <use xmoslogo18pt.pdf> [12]
+         Underfull \vbox (badness 10000) has occurred while \output is active
+         <use xmoslogo18pt.pdf> [13] <use xmoslogo18pt.pdf> <use xmoslogo18pt.pdf>
+         [14] (/home/davel/github2/sc_i2c/doc2/_build/xlatex/xmos_texfile.aux)
+         
+         LaTeX Warning: There were undefined references.
+         
+         
+         LaTeX Warning: There were multiply-defined labels.
+         
+          ) )
+         (see the transcript file for additional information){/tools/tools_latex_dist/di
+         st/x86_64-linux/texmf-dist/fonts/enc/dvips/base/8r.enc}</tools/tools_latex_dist
+         /dist/x86_64-linux/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></tools
+         /tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/lucida/lbr.pfb><
+         /tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/lucida/lsd
+         .pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/bh/luci
+         da/lsi.pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/type1/b
+         h/lucida/lsr.pfb></tools/tools_latex_dist/dist/x86_64-linux/texmf-local/fonts/t
+         ype1/bh/lucida/lstr.pfb>
+         Output written on xmos_texfile.pdf (14 pages, 387416 bytes).
+         Transcript written on xmos_texfile.log.
+    Build Complete
